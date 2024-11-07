@@ -1,0 +1,132 @@
+/* Contains CSS Styling */
+
+body {
+    background-color: #F5D7DB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #06142E;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top : 0;
+    left: 0;
+    width : 100%;
+    position: fixed;
+}
+
+main {
+    margin-bottom: 100 px;
+}
+
+p {
+    color: #06142E;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    color: #1B3358;
+    padding: 5px;
+    margin: 5px;
+}
+
+h3 {
+    color: #473E66;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #06142E;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    width : 100%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.my_name_heading {
+    padding-left: 15px;
+    font-size: 20px;
+    color: #BD83B8;
+}
+
+.page_links {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.page_links a {
+    padding-left: 10px;
+}
+
+.page_links a:link, .page_links a:visited {
+    text-decoration: none;
+    color: #BD83B8;
+}
+  
+.page_links a:hover, .page_links a:active {
+    text-decoration: underline;
+    color: #F1916D;
+}
+.hobby_picture {
+    height: 200px;
+    float: right;
+    margin: 0 24px 24px 24px;
+}
+
+.page_body {
+    display: inline-block;
+}
+
+.project {
+    border-top: 1.5px solid #BD83B8;
+}
+
+#page_title {
+    margin-top: 100px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #06142E;
+
+}
+
+#active_page {
+    text-decoration: underline;
+    color: #F1916D;
+}
+
+#interests_hobbies {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#portrait {
+    height: 400px;
+    margin: 100px 30px 24px 24px;
+    float: right;
+}
+
+#intro_quote {
+    font-family: "Lucida Handwriting";
+    font-size: 24px;
+    background-color: #F1916D;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #06142E;
+}
+
+#linkedin img {
+    height: 45px;
+    align-self:center;
+}
