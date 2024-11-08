@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- This file is going to contain the contact form. -->
+
+<html>
+    <head>
+        <title>Laura Ferris</title>
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="my_name_heading">
+                <h1>Laura Ferris</h1>
+            </div>
+            <div class="page_links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html" id="active_page">Contact Us</a>
+                <a href="juan.html">Juan</a>
+                <a href="aaron.html">Aaron</a>
+            </div>
+        </nav>
+
+        <main>
+            <h1 id="page_title">Contact Us</h1>
+            <div id="contact_message">
+                <p>If you would like to contact us, fill out your name and email along with your message, and we'll be more than happy to get back to you.</p>
+            </div>
+            <div id="form">
+                <form action="./submit.html">
+                    <div class="form_element">
+                        <label for="fname">Name:</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form_element">
+                        <label for="email">Email:</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form_element">
+                        <label for="message">Message:</label>
+                        <textarea id="message_box"></textarea> 
+                    </div>
+                    <div class="form_element">
+                        <input type="submit" value="Submit" id="submit_button">
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="linkedin">
+                <a href="www.linkedin.com/in/laura-m-ferris" target="blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn"></a>
+            </div>
+        </footer>
+    </body>
+</html>
