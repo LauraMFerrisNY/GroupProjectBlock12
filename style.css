@@ -156,18 +156,23 @@ label {
     width: 6em;
     font-size: 24px;
 }
+/*Tablet size*/
 @media screen and (max-width: 992px) {
    
     #form {
-        font-size: 16px;
         display: inline-flex;
         flex-direction: column;
         text-align: center;
+    }
+    label {
+        font-size: 16px;
+        text-align: center
     }
     .form_element {
         padding: .5em;
     }
   }
+  /*Phone size*/
   @media screen and (max-width: 600px) {
     
     #form {
@@ -177,6 +182,7 @@ label {
     }
     label {
         font-size: 16px;
+        text-align: center
     }
     .form_element {
         padding: .5em;
