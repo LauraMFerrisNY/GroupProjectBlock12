@@ -44,40 +44,62 @@ nav {
     height: 300px;
     margin-top: 100px;
     margin-left: 15px;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: black;
 }
 
 #about_title {
     color: rgb(42, 56, 164);
     margin-left: 25px;
+    text-decoration: underline;
 }
 
 h2 {
     margin-left: 15px;
     color: #2550a0;
+    text-decoration: underline;
 }
 
 .gympic {
     height: 180px;
     width: 300px;
     margin-left: 15px;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: black;
 }
 
 .food {
     height: 180px;
     width: 300px;
     margin-left: 15px;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: black;
 }
 
 .venue {
     height: 180px;
     width: 300px;
     margin-left: 15px;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: black;
 }
 
 .lolpic {
     height: 180px;
     width: 300px;
     margin-left: 15px;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: black;
 }
 
 h3 {
@@ -111,3 +133,96 @@ footer {
     align-self:center;
 }
 
+/* Media query for tablets and smaller screens */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .juan_heading {
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+
+    .page_links {
+        padding-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 1.1em;
+    }
+
+    #nypicture {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .gympic, .food, .venue, .lolpic {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .juan_heading {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .page_links {
+        justify-content: center;
+        gap: 5px;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/* Media query for extra-small mobile screens */
+@media (max-width: 480px) {
+    .page_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #about_title, h2 {
+        font-size: 1.5em;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+}
