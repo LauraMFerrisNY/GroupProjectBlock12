@@ -28,3 +28,31 @@ img {
   background-color: rgb(186, 186, 232);
   box-shadow: 0 0.5rem 1rem rgba(33, 33, 33, 0.85)
 }
+/* larger screens */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.image {
+  width: 50%;
+}
+/* medium screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .image {
+    width: 100%;
+  }
+}
+/* small screens */
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+  .image {
+    width: 100%;
+  }
+}
