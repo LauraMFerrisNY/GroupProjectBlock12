@@ -1,0 +1,113 @@
+body {
+    background-color: #F5D7DB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #06142E;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top : 0;
+    left: 0;
+    width : 100%;
+    position: fixed;
+}
+
+.page_links {
+    padding-right: 15px;
+    font-size: 1.3em;
+}
+
+.page_links a {
+    padding-left: 10px;
+}
+
+.page_links a:link, .page_links a:visited {
+    text-decoration: none;
+    color: #BD83B8;
+}
+  
+.page_links a:hover, .page_links a:active {
+    text-decoration: underline;
+    color: #F1916D;
+}
+
+.juan_heading {
+    padding-left: 15px;
+    font-size: 20px;
+    color: #BD83B8;
+}
+
+#nypicture {
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+#about_title {
+    color: rgb(42, 56, 164);
+    margin-left: 25px;
+}
+
+h2 {
+    margin-left: 15px;
+    color: #2550a0;
+}
+
+.gympic {
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.food {
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.venue {
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.lolpic {
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+h3 {
+    color: #473E66;
+    padding: 10px;
+    margin: 5px;
+}
+
+p {
+    color: #06142E;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #06142E;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    width : 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#linkedin img {
+    height: 45px;
+    align-self:center;
+}
+
