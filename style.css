@@ -156,6 +156,11 @@ label {
     width: 6em;
     font-size: 24px;
 }
+
+#contact_message > p {
+    font-size: 22px;
+}
+
 /*Tablet size*/
 @media screen and (max-width: 992px) {
    
